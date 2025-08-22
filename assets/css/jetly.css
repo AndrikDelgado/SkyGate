@@ -3256,7 +3256,7 @@ ul {
   right: 0;
   bottom: 0;
   content: "";
-  background-color: rgba(var(--jetly-black-rgb), .40);
+  background-color: rgba(255, 255, 0, 0.247);
   width: 0%;
   transform: translateY(100%);
   transition: all 500ms ease;
@@ -11401,4 +11401,10 @@ body.boxed-wrapper {
   background-color: #fff;
   -webkit-box-shadow: 0px 0px 100px 0px rgba(0, 0, 0, 0.08);
   box-shadow: 0px 0px 100px 0px rgba(0, 0, 0, 0.08);
+}
+
+.tuso {
+    padding: 30px;
+    border-radius: 8px;
+    text-align: justify;
 }
